@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+backend/demo.db
+.playwright-mcp/
+data/
+*.db

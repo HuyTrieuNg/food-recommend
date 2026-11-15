@@ -1,0 +1,18 @@
+[project]
+name = "food-recommend-backend"
+version = "0.1.0"
+description = "Demo recommender (content-based + collaborative) cho data Foody"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.16.0",
+]
